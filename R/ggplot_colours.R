@@ -1,24 +1,24 @@
 
 bj_colours <- c(
-  "dark green"  = "264653",
-  "light green" = "2A9D8F",
-  "yellow" = "E9C46A",
-  "light orange" = "F4A261",
-  "dark orange" = "E76F51",
+  "dark green"  = "#264653",
+  "light green" = "#2A9D8F",
+  "yellow" = "#E9C46A",
+  "light orange" = "#F4A261",
+  "dark orange" = "#E76F51",
   # green gradient start at 'dark green'
-  "green 2" = "2D5362",
-  "green 3" = "335F70",
-  "green 4" = "3A6B7E",
-  "green 5" = "40768C",
-  "green 6" = "47829A",
-  "green 7" = "4D8EA8",
+  "green 2" = "#2D5362",
+  "green 3" = "#335F70",
+  "green 4" = "#3A6B7E",
+  "green 5" = "#40768C",
+  "green 6" = "#47829A",
+  "green 7" = "#4D8EA8",
   # orange gradient start at 'dark orange'
-  "orange 2" = "EB886F",
-  "orange 3" = "EE9781",
-  "orange 3" = "F0A693",
-  "orange 3" = "F3B5A5",
-  "orange 3" = "F5C4B7",
-  "orange 3" = "F8D3C9"
+  "orange 2" = "#EB886F",
+  "orange 3" = "#EE9781",
+  "orange 3" = "#F0A693",
+  "orange 3" = "#F3B5A5",
+  "orange 3" = "#F5C4B7",
+  "orange 3" = "#F8D3C9"
 )
 
 
