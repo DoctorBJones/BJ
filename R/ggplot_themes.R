@@ -2,13 +2,13 @@
 #'
 #' @importFrom ggplot2 '%+replace%'
 #' @importFrom ggplot2 'margin'
-#' @import extrafont
 #' @import grDevices
 #' @import sysfonts
+#' @import showtext
 #' 
 #' @export
 theme_bj_numeric <- function() {
-  font <- "Source Sans Pro"
+  font <- "Nanum Gothic"
   font_colour <- "#3f3f3f"
   
   ggplot2::theme_minimal() %+replace%
@@ -69,7 +69,7 @@ theme_bj_numeric <- function() {
           size = 11,
           color = font_colour),
         
-        legent.title = ggplot2::element_text(
+        legend.title = ggplot2::element_text(
           family = font,
           size = 11,
           color = font_colour)
@@ -80,7 +80,7 @@ theme_bj_numeric <- function() {
 #' Vertical bar theme
 #' @export
 theme_bj_vbar <- function() {
-  font <- "Calibri"
+  font <- "Nanum Gothic"
   font_colour <- "#3f3f3f"
   
   ggplot2::theme_minimal() %+replace%
@@ -141,7 +141,7 @@ theme_bj_vbar <- function() {
         size = 11,
         color = font_colour),
       
-      legent.title = ggplot2::element_text(
+      legend.title = ggplot2::element_text(
         family = font,
         size = 11,
         color = font_colour),
@@ -156,7 +156,7 @@ theme_bj_vbar <- function() {
 #' Horizontal bar theme
 #' @export
 theme_bj_hbar <- function() {
-font <- "Calibri"
+font <- "Nanum Gothic"
 font_colour <- "#3f3f3f"
 
 ggplot2::theme_minimal() %+replace%
@@ -168,9 +168,6 @@ ggplot2::theme_minimal() %+replace%
     panel.grid.major = ggplot2::element_blank(),
     panel.grid.minor = ggplot2::element_blank(),
     axis.ticks =  ggplot2::element_blank(),
-    axis.ticks.y.left = ggplot2::element_line(
-      color = "#bfbfbf",
-      size = 0.5),
     
     axis.line = ggplot2::element_line(
       color = "#bfbfbf",
@@ -217,13 +214,13 @@ ggplot2::theme_minimal() %+replace%
       size = 11,
       color = font_colour),
     
-    legent.title = ggplot2::element_text(
+    legend.title = ggplot2::element_text(
       family = font,
       size = 11,
       color = font_colour),
     
-    axis.line.x = ggplot2::element_blank(),
-    axis.ticks.x = ggplot2::element_blank()
+    axis.line.y = ggplot2::element_blank(),
+    axis.ticks.y.left = ggplot2::element_blank()
   )
 
 }
