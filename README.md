@@ -16,7 +16,7 @@ devtools::install_github("DoctorBJones/BJ")
  There are currently six functions: three for colours and three for themes. 
  
  The colour functions allow you to:
- * select either individual colours by name using bj_cols(), 
+ * select individual colours by name using bj_cols(), 
  * select palettes of colour using either scale_colour_bj() or scale_fill_bj().
 
 ``` r
@@ -46,7 +46,7 @@ ggplot(mpg, aes(drv, fill = drv)) +
 geom_bar() +
 scale_fill_bj()
 ```
-There are also three basic ggplot themes. One is for numeric data and the other two are for vertical and horizontal bar charts.
+There are also three basic ggplot themes. One is for numeric data and the other two are for vertical and horizontal representations of categorical data, such as bar charts.
 ``` r
 ggplot(mpg, aes(class, fill = class)) +
 geom_bar() +
