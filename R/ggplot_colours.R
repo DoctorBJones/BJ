@@ -15,10 +15,10 @@ bj_colours <- c(
   # orange gradient start at 'dark orange'
   "orange 2" = "#EB886F",
   "orange 3" = "#EE9781",
-  "orange 3" = "#F0A693",
-  "orange 3" = "#F3B5A5",
-  "orange 3" = "#F5C4B7",
-  "orange 3" = "#F8D3C9"
+  "orange 4" = "#F0A693",
+  "orange 5" = "#F3B5A5",
+  "orange 6" = "#F5C4B7",
+  "orange 7" = "#F8D3C9"
 )
 
 
@@ -42,9 +42,9 @@ bj_cols <- function(...) {
 bj_palettes <- list(
   `main` = bj_cols("dark green","light green", "yellow", "light orange", "dark orange"),
 
-  `green gradient` = bj_cols("dark green", "green 2", "green 3", "green 4", "green 5", "green 6", "green 7"),
+  `green gradient` = bj_cols("dark green", "green 2", "green 4", "green 5", "green 7"),
 
-  `orange gradient` = bj_cols("dark orange", "orange 2", "orange 3", "orange 4", "orange 5", "orange 6", "orange 7")
+  `orange gradient` = bj_cols("dark orange", "orange 2", "orange 4", "orange 5", "orange 7")
 )
 
 # Create ordered palettes
