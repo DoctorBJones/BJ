@@ -5,6 +5,8 @@
 #' @import grDevices
 #' @import sysfonts
 #' @import showtext
+#' @import jsonlite
+#' @import curl
 #' 
 #' @export
 theme_bj_numeric <- function() {
