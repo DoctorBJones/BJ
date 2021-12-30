@@ -18,7 +18,9 @@ bj_colours <- c(
   "orange 4" = "#F0A693",
   "orange 5" = "#F3B5A5",
   "orange 6" = "#F5C4B7",
-  "orange 7" = "#F8D3C9"
+  "orange 7" = "#F8D3C9",
+  # other colours
+  "text grey" = "#bfbfbf"
 )
 
 
