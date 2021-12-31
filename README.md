@@ -63,6 +63,12 @@ geom_point() +
 scale_color_bj(palette = "green gradient", discrete = FALSE) +
 theme_bj_numeric()
 ```
+Lastly, there is a function to easily create gauge plots. 
+``` r
+gauge_plot(0.22, text_colour = "black")
+gauge_plot(0.58, text_colour = bj_cols("text grey"))
+gauge_plot(0.12, reverse = TRUE)
+```
 The package also imports the ['Nanum Gothic'](https://fonts.google.com/specimen/Nanum+Gothic) font from Google fonts for use in all themes.
 
 
